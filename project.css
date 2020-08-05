@@ -1,0 +1,298 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #e3e3e3;
+}
+.header{
+width: 100%;
+height: 1090px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://cdn.cnn.com/cnnnext/dam/assets/181010131059-australia-best-beaches-cossies-beach-cocos3.jpg);
+background-size: cover;	
+background-attachment: fixed;
+}
+
+nav{
+	width: 100%;
+	padding: 20px;
+	
+	top: 0px;
+	transition: .5s;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 50px;
+	color: white;
+	font-size: 24px;
+	font-family: sans-serif;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: .5s;
+	float: right;
+
+}
+.box{
+	width: 80%;
+	height: 2000px;
+	background: green;
+	margin: 20px auto;
+}
+.heading{
+	color: white;
+    padding-top: 270px;	
+    padding-left: 40px;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.book{
+	background-color: white;
+	width: 1150px;
+	height: 200px;
+	border-radius: 25px;
+	padding-top: 25px;
+	margin-top: 25px;
+	margin-left: 50px;
+	text-align: center;
+}
+.btn{
+	margin-left: 600px;
+}
+.book{
+	display: flex;
+	padding: 50px;
+
+}
+
+.book label{
+	display: inline-flex;
+	font-family: Lato,sans-serif;
+	font-size: 20px;
+	color: #6e6f73;
+	font-weight: 500;
+}
+.book input{
+	border-style: none;
+	font-weight: 500;
+}
+.dropdown{
+	height: 90px;
+	width: 250px;
+	border-style: solid;
+	border-right: none;
+	font-size: 25px;
+	border-color: #e6e7e8;
+}
+.dropdown:hover {
+	background-color: #dce7fa;
+}
+.dropdown:hover select{
+	background-color: #dce7fa;
+} 
+.dropdown:hover input{
+	background-color: #dce7fa;
+}
+.dropdown-content{
+	width: 250px;
+}
+#last{
+	border-right: solid;
+	border-right-color: #e6e7e8;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.book input{
+	font-size: 20px;
+}
+.book select{
+	border-style: none;
+	text-align: center;
+	font-weight: 500;
+}
+.book option{
+	font-size: 20px;
+}
+#first{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.search{
+	background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+	color: #575859;
+	border-style: none;
+	margin-left: 570px;
+	font-size: 30px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 25px;
+}
+.path{
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-left: 120px;
+	display: flex;
+	color: #696d6e;
+}
+.OneSide{
+	padding-right: 45px;
+}
+.offers{
+background-color: white;
+height: 450px;
+width: 100%;
+}
+.superoffers{
+	width: 90%;
+	height: 350px;
+	border-radius: 25px;
+	margin: 30px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 100px;
+}
+#offerhead{
+	font-size: 35px;
+	color: #696d6e;
+	font-weight: 700;
+	padding-left: 35px;
+	
+}
+.card{
+	padding-right: 25px;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+  width: 500px;
+  
+}
+.desert{
+	height: 226px;
+	width: 190px;
+}
+.row{
+	padding: 30px;
+	margin-right: 25px;
+}
+.card-body span{
+ color: blue;
+ font-weight: 600;
+
+}
+.choose{
+	width: 100%;
+	height: 340px;
+	background-color: #d9dbdb;
+}
+.ques{
+	display: flex;
+}
+.ques div p{
+	width: 85%;
+	padding: 10px;
+	font-family: Lato,sans-serif;
+	font-size: 18px;
+}
+.ques div span{
+font-weight: bold;
+padding: 10px;
+padding-top: 25px;
+}
+.connect{
+	background-color: black;
+	height: 200px;
+	width: 100%;
+}
+.connect i{
+	font-size: 25px;
+
+}
+.connect div{
+	float: right;
+}
+.way{
+	background-color: white;
+	height: 40px;
+	width: 550px;
+	border-radius: 20px;
+	margin-top: 190px;
+	margin-left: 350px;
+}
+.way span{
+	font-size: 20px;
+	font-family: Lato,sans-serif;
+	color: #6e6f73;
+	font-weight: 700;
+}
+.way label{
+	padding-left: 110px;
+	padding-top: 5px;
+}
+.blog{
+	width: 100%;
+	height: 500px;
+	
+}
+.travelblog{
+	width: 90%;
+	height: 350px;
+	background-color: white;
+	margin: 30px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 25px;
+}
+.city img{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+}
+.city{
+	display: flex;
+	padding-bottom: 40px;
+	padding-right: 25px;
+	font-family: sans-serif;
+}
+.about{
+	padding-left: 10px;
+}
+.flights{
+	margin-bottom: 0px;
+}
+.info{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px;
+}
+.route{
+	font-size: 13px;
+}
+nav a{
+	color: white;
+}
+.connect i{
+	color: white;
+	margin-top: 100px;
+	margin-left: 25px;
+}
+.icons{
+	margin-top: 100px;
+	margin-right: 100px;
+}
+.connect p{
+	color: white;
+	padding-right: 500px;
+	padding-top: 40px;
+}
+.connect span{
+	display: table-row;
+}
+.connect a{
+	color: #b5b5b3;
+}
+.logo{
+	float: left;
+}
